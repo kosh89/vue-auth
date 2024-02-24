@@ -2,7 +2,7 @@
     max-width: 400px;
     margin: 50px auto;
     border-radius: 4px;
-    background-color: lightgray;
+    background-color: lightseagreen;
 
     &__wrapper {
         display: flex;
@@ -19,16 +19,10 @@
 
         span {
             position: absolute;
-            top: 50%;
+            top: 5px;
             left: 16px;
-            transform: translateY(-50%);
-            font-size: 16px;
-            line-height: 1;
-        }
-
-        &.focused span {
-            top: 25%;
             font-size: 12px;
+            line-height: 1;
         }
 
         input {

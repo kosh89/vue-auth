@@ -1,5 +1,8 @@
 @import './base.css';
 @import './auth.scss';
+@import './posts.scss';
+@import './user.scss';
+@import './modal.scss';
 
 header {
   display: flex;
